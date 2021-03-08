@@ -2,6 +2,8 @@
 
 A Kotest extension to use [wiremock](https://github.com/tomakehurst/wiremock) through test lifecycles.
 
+See [docs](https://kotest.io/docs/extensions/wiremock.html).
+
 [![Build Status](https://github.com/kotest/kotest-extensions-wiremock/workflows/master/badge.svg)](https://github.com/kotest/kotest-extensions-wiremock/actions)
 [<img src="https://img.shields.io/maven-central/v/io.kotest/kotest-extensions-wiremock.svg?label=latest%20release"/>](http://search.maven.org/#search|ga|1|kotest)
 ![GitHub](https://img.shields.io/github/license/kotest/kotest-extensions-wiremock)
