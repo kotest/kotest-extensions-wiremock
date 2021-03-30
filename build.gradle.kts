@@ -33,7 +33,7 @@ allprojects {
    dependencies {
       implementation(Libs.Kotlin.stdlib)
       implementation(Libs.Kotest.api)
-      implementation(Libs.Wiremock.wiremock)
+      api(Libs.Wiremock.wiremock)
       testImplementation(Libs.Kotest.junit5)
       testImplementation(Libs.Kotest.assertions)
    }
