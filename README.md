@@ -13,4 +13,16 @@ Please create issues on the main kotest [board](https://github.com/kotest/kotest
 [<img src="https://img.shields.io/nexus/s/https/oss.sonatype.org/io.kotest.extensions/kotest-extensions-wiremock.svg?label=latest%20snapshot"/>](https://oss.sonatype.org/content/repositories/snapshots/io/kotest/extensions/kotest-extensions-wiremock/)
 
 
+### Changelog
 
+#### 1.0.2
+
+* Fixed issue with dependencies
+
+#### 1.0.1
+
+* Version bumps
+
+#### 1.0.0
+
+* Migrated from main Kotest repo.
