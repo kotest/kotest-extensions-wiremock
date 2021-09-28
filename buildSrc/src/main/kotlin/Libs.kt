@@ -15,7 +15,7 @@ object Libs {
    }
 
    object Wiremock {
-      const val version = "2.27.2"
+      const val version = "2.31.0"
       const val wiremock = "com.github.tomakehurst:wiremock-jre8-standalone:$version"
    }
 }
