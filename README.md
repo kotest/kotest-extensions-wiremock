@@ -15,6 +15,11 @@ Please create issues on the main kotest [board](https://github.com/kotest/kotest
 
 ### Changelog
 
+#### 1.0.3
+
+* JDK8 compatible
+* Bumped wiremock to 2.31.0
+
 #### 1.0.2
 
 * Fixed issue with dependencies
