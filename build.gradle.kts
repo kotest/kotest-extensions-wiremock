@@ -20,9 +20,12 @@ repositories {
 
 dependencies {
    api(libs.wiremock)
+   implementation(libs.kotlinx.serialization.json)
+   implementation(libs.kotest.assertions.json)
    implementation(libs.kotest.api)
    testImplementation(libs.kotest.runner)
    testImplementation(libs.kotest.assertions)
+   testImplementation(libs.bundles.rest.assured)
 }
 
 tasks.test {

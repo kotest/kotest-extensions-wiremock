@@ -15,6 +15,12 @@ Please create issues on the main kotest [board](https://github.com/kotest/kotest
 
 ### Changelog
 
+#### 2.0.0-SNAPSHOT
+
+* Added `MatchJsonSchemaPattern` which can be used to test a request using Kotest JSON Schema
+* Bumped Kotest requirement to 5.3.0
+* Bumped Kotlin to 1.6.21
+
 #### 1.0.3
 
 * JDK8 compatible
