@@ -1,5 +1,5 @@
 [versions]
-wiremock = "2.31.0"
+wiremock = "2.33.2"
 kotest = "5.3.0"
 
 [libraries]
