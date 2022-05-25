@@ -8,7 +8,7 @@ object Ci {
 
    private val snapshotVersion = when (githubRunNumber) {
       null -> "$snapshotBase-LOCAL"
-      else -> "$snapshotBase.${githubRunNumber}-SNAPSHOT"
+      else -> "$snapshotBase.$githubRunNumber-SNAPSHOT"
    }
 
    private val releaseVersion = System.getenv("RELEASE_VERSION")
