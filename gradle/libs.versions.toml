@@ -1,6 +1,6 @@
 [versions]
 wiremock = "2.34.0"
-kotest = "5.5.3"
+kotest = "5.5.4"
 
 [libraries]
 kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
