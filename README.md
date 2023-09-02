@@ -14,6 +14,10 @@ Please create issues on the main kotest [board](https://github.com/kotest/kotest
 
 ### Changelog
 
+#### 2.0.1
+
+* Add per project listener mode
+
 #### 2.0.0
 
 * Bumps Kotest to 5.5.5
