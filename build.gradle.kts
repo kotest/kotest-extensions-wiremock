@@ -5,7 +5,7 @@ plugins {
    `java-library`
    signing
    `maven-publish`
-   kotlin("jvm") version "1.6.21"
+   kotlin("jvm") version "1.9.21"
 }
 
 group = "io.kotest.extensions"
@@ -35,7 +35,7 @@ tasks.test {
 }
 
 tasks.withType<KotlinCompile> {
-   kotlinOptions.jvmTarget = "1.8"
+   kotlinOptions.jvmTarget = "11"
 }
 
 val signingKey: String? by project
@@ -57,6 +57,9 @@ signing {
 java {
    withJavadocJar()
    withSourcesJar()
+   toolchain {
+      version = JavaLanguageVersion.of(11)
+   }
 }
 
 publishing {
