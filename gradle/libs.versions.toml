@@ -1,5 +1,5 @@
 [versions]
-wiremock = "2.35.1"
+wiremock = "3.3.1"
 kotest = "5.5.4"
 
 [libraries]
@@ -7,4 +7,4 @@ kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref =
 kotest-api = { module = "io.kotest:kotest-framework-api", version.ref = "kotest" }
 kotest-runner = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 
-wiremock = { module = "com.github.tomakehurst:wiremock-jre8-standalone", version.ref = "wiremock" }
+wiremock = { module = "org.wiremock:wiremock", version.ref = "wiremock" }
