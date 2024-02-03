@@ -7,4 +7,4 @@ kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref =
 kotest-api = { module = "io.kotest:kotest-framework-api", version.ref = "kotest" }
 kotest-runner = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 
-wiremock = { module = "org.wiremock:wiremock", version.ref = "wiremock" }
+wiremock = { module = "org.wiremock:wiremock-standalone", version.ref = "wiremock" }
