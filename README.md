@@ -12,7 +12,19 @@ Please create issues on the main kotest [board](https://github.com/kotest/kotest
 [![kotest @ kotlinlang.slack.com](https://img.shields.io/static/v1?label=kotlinlang&message=kotest&color=blue&logo=slack)](https://kotlinlang.slack.com/archives/CT0G9SD7Z)
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/io.kotest.extensions/kotest-extensions-wiremock?label=latest%20snapshot&server=https%3A%2F%2Fs01.oss.sonatype.org)](https://s01.oss.sonatype.org/content/repositories/snapshots/io/kotest/extensions/kotest-extensions-wiremock/)
 
+## Compatibility
+
+| Extension Version | WireMock version | Min. Java version |
+|-------------------|------------------|-------------------|
+| 2.x               | >=2, < 3         | 8                 |
+| 3.x               | >= 3             | 11                |
+
+
 ### Changelog
+
+#### 3.0.0
+* Upgraded to wiremock 3.3.1
+* Min java version is now 11 (wiremock 3.x requires java 11)
 
 #### 2.0.1
 
