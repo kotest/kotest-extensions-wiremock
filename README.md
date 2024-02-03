@@ -22,6 +22,9 @@ Please create issues on the main kotest [board](https://github.com/kotest/kotest
 
 ### Changelog
 
+#### 3.0.1
+* Reverted to using wiremock-standalone to prevent dependency conflicts
+
 #### 3.0.0
 * Upgraded to wiremock 3.3.1
 * Min java version is now 11 (wiremock 3.x requires java 11)
