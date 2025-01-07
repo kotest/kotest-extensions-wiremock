@@ -1,6 +1,6 @@
 [versions]
 wiremock = "3.6.0"
-kotest = "5.5.4"
+kotest = "5.9.1"
 fuel = "2.3.1"
 
 [libraries]
