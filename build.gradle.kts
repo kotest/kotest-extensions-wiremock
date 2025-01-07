@@ -14,7 +14,7 @@ version = Ci.version
 repositories {
    mavenCentral()
    maven {
-      url = uri("https://oss.sonatype.org/content/repositories/snapshots")
+      url = uri("https://s01.oss.sonatype.org/content/repositories/snapshots")
    }
 }
 
@@ -23,6 +23,7 @@ dependencies {
    implementation(libs.kotest.api)
    testImplementation(libs.kotest.runner)
    testImplementation(libs.kotest.assertions)
+   testImplementation(libs.fuel)
 }
 
 tasks.test {

@@ -1,10 +1,13 @@
 [versions]
 wiremock = "3.6.0"
 kotest = "5.5.4"
+fuel = "2.3.1"
 
 [libraries]
 kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
 kotest-api = { module = "io.kotest:kotest-framework-api", version.ref = "kotest" }
 kotest-runner = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
+
+fuel = { module = "com.github.kittinunf.fuel:fuel", version.ref = "fuel" }
 
 wiremock = { module = "org.wiremock:wiremock-standalone", version.ref = "wiremock" }
