@@ -1,5 +1,5 @@
 [versions]
-wiremock = "3.6.0"
+wiremock = "3.11.0"
 kotest = "5.5.4"
 fuel = "2.3.1"
 
